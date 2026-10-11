@@ -5,7 +5,7 @@ Energy-Adaptive TinyML: Dynamic Model Selection Based on
 Available Power on Arduino Nano 33 BLE Sense Rev2
 
 ## Student
-Ahmed — University of Trento
+Ahmed Shoeb — University of Trento (2025-2026)
 
 ## Course
 Low-power Embedded Systems — Prof. Kasim Sinan Yildirim
