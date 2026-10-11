@@ -29,7 +29,9 @@ dying?**
 
 ## The Core Idea
 Battery > 70% → Large model → High accuracy, slow inference
+
 Battery 30-70% → Medium model → Good accuracy, medium inference
+
 Battery < 30% → Small model → Basic accuracy, fast inference
 
 The device never stops working. It just becomes more efficient.
