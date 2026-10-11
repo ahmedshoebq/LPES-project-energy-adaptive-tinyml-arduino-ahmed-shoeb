@@ -75,19 +75,26 @@ The device never stops working. It just becomes more efficient.
 ## Pipeline
 IMU (BMI270)
 ↓
+
 50-sample sliding window at 50 Hz
 ↓
+
 60 features extracted per window:
 
 Time domain: mean, std, rms, min, max (×6 axes = 30)
+
 Frequency domain: PSD bins k=1..5 (×6 axes = 30)
 ↓
+
 Feature normalization (StandardScaler)
 ↓
+
 Dynamic model selection based on battery level
 ↓
+
 TFLite inference on Arduino
 ↓
+
 Predicted gesture + confidence + active model → Serial Monitor
 
 ## Dynamic Switching Logic
